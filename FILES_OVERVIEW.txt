@@ -1,0 +1,223 @@
+================================================================================
+                    POLE TRANSFER DATA PROCESSING TOOLKIT
+================================================================================
+
+📁 PROJECT FILES OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 WHAT YOU NEED TO KNOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⭐ MAIN TOOL (Use this for Excel output with yellow highlighting):
+
+   process_with_highlighting.py
+   └─ Creates Excel files with new columns highlighted in YELLOW
+   └─ Command: python process_with_highlighting.py input.csv output.xlsx
+
+
+📚 DOCUMENTATION (Start here):
+
+   1. GETTING_STARTED.md  ← START HERE (Step-by-step guide)
+   2. QUICKSTART.md       ← Quick reference commands
+   3. README.md           ← Complete documentation
+   4. SUMMARY.md          ← Project overview & results
+
+
+🧪 TESTING:
+
+   test_column_splitter.py  ← Run this to verify everything works
+                               Command: python test_column_splitter.py
+
+
+📊 SAMPLE DATA:
+
+   example_sample_data.csv  ← Sample input file
+   example_output.xlsx      ← Sample output (with yellow highlighting)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 ALL FILES EXPLAINED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CORE PYTHON FILES:
+╔══════════════════════════════════════════════════════════════════════════╗
+║ advanced_column_splitter.py                                              ║
+║ └─ Core logic: ColumnSplitter class with regex pattern                  ║
+║ └─ Can be imported into other Python scripts                            ║
+║ └─ Includes demo (run: python advanced_column_splitter.py)              ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ process_with_highlighting.py                    ⭐ RECOMMENDED           ║
+║ └─ Creates Excel with YELLOW highlighting on new columns                ║
+║ └─ Command: python process_with_highlighting.py input.csv output.xlsx   ║
+║ └─ Best for visual verification                                         ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ process_pole_data.py                                                     ║
+║ └─ Alternative tool: outputs CSV or Excel without highlighting          ║
+║ └─ Use if you don't need visual highlighting                            ║
+║ └─ Command: python process_pole_data.py input.csv output.csv            ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ test_column_splitter.py                                                  ║
+║ └─ 26 comprehensive unit tests                                          ║
+║ └─ Run to verify everything works: python test_column_splitter.py       ║
+║ └─ All tests should PASS ✅                                              ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+DOCUMENTATION FILES:
+╔══════════════════════════════════════════════════════════════════════════╗
+║ GETTING_STARTED.md                               📘 START HERE           ║
+║ └─ Step-by-step guide for first-time users                              ║
+║ └─ Installation, testing, and processing your data                      ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ QUICKSTART.md                                    ⚡ QUICK REFERENCE      ║
+║ └─ Common commands and 5-minute guide                                   ║
+║ └─ Perfect for users who want to dive right in                          ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ README.md                                        📖 FULL DOCS            ║
+║ └─ Complete documentation with examples                                 ║
+║ └─ Troubleshooting, API usage, integration guides                       ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ SUMMARY.md                                       📊 PROJECT OVERVIEW     ║
+║ └─ What was built, test results, deliverables                           ║
+║ └─ Technical details about the regex pattern                            ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ FILES_OVERVIEW.txt                               📁 THIS FILE            ║
+║ └─ Overview of all project files                                        ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+SAMPLE DATA:
+╔══════════════════════════════════════════════════════════════════════════╗
+║ example_sample_data.csv                                                  ║
+║ └─ Sample input data with various edge cases                            ║
+║ └─ Use for testing before processing real data                          ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║ example_output.xlsx                                                      ║
+║ └─ Example output showing yellow highlighting                           ║
+║ └─ Open this to see what your output will look like                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+CONFIGURATION:
+╔══════════════════════════════════════════════════════════════════════════╗
+║ requirements.txt                                                         ║
+║ └─ Python dependencies (pandas, openpyxl)                               ║
+║ └─ Install with: pip install -r requirements.txt                        ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 QUICK START (3 COMMANDS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Test with sample data:
+   python process_with_highlighting.py example_sample_data.csv test_output.xlsx
+
+3. Open test_output.xlsx and verify yellow highlighting ✅
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 COMMON COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Process CSV file:
+   python process_with_highlighting.py your_data.csv output.xlsx
+
+Process Excel file:
+   python process_with_highlighting.py your_data.xlsx output.xlsx --sheet "Sheet1"
+
+Specify column name:
+   python process_with_highlighting.py input.csv output.xlsx --column "Raw_Marker_Data"
+
+Keep original column:
+   python process_with_highlighting.py input.csv output.xlsx --keep-original
+
+Run tests:
+   python test_column_splitter.py
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ WHICH FILE SHOULD I USE?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For reading documentation:
+   ├─ New user? → Read GETTING_STARTED.md first
+   ├─ Need quick commands? → Check QUICKSTART.md
+   ├─ Want full details? → Read README.md
+   └─ Want project overview? → Read SUMMARY.md
+
+For processing data:
+   ├─ Need Excel with yellow highlighting? → process_with_highlighting.py ⭐
+   ├─ Just need CSV output? → process_pole_data.py
+   └─ Want to integrate into Python code? → import from advanced_column_splitter.py
+
+For testing:
+   ├─ Run unit tests? → python test_column_splitter.py
+   ├─ See demo? → python advanced_column_splitter.py
+   └─ Test with sample data? → Use example_sample_data.csv
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 WHAT THE TOOL DOES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INPUT FORMAT:
+   POLE TRANSFER 1237876 - 07613020
+   3584096 - 10823022
+   JAYSON POLE TRANSFER 3414407 - 7325119
+   3355758 - IPID 77731
+   Plant Repair
+
+OUTPUT (3 new columns with YELLOW highlighting):
+   ┌─────────────────────┬───────────────┬─────────────┐
+   │ Marker_Name       🟨│ Engine_Number🟨│ Pole_Number🟨│
+   ├─────────────────────┼───────────────┼─────────────┤
+   │ POLE TRANSFER     🟨│ 1237876      🟨│ 07613020   🟨│
+   │                   🟨│ 3584096      🟨│ 10823022   🟨│
+   │ JAYSON POLE...    🟨│ 3414407      🟨│ 7325119    🟨│
+   │                   🟨│ 3355758      🟨│ IPID 77731 🟨│
+   │                   🟨│              🟨│            🟨│
+   └─────────────────────┴───────────────┴─────────────┘
+
+   🟨 = Yellow background in actual Excel file
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Advanced column splitting (regex-based)
+✅ Handles all edge cases (IPID, Plant Repair, complex markers)
+✅ Duplicate removal by Pole Number
+✅ Job number filtering (JB...)
+✅ Excel output with YELLOW highlighting
+✅ Auto-detects column name
+✅ Comprehensive error handling
+✅ Detailed processing reports
+✅ 26 unit tests (all passing)
+✅ Complete documentation
+✅ Production-ready code
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 READY TO GO!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Install: pip install -r requirements.txt
+2. Test: python process_with_highlighting.py example_sample_data.csv test.xlsx
+3. Verify: Open test.xlsx and see the yellow columns
+4. Process: python process_with_highlighting.py YOUR_DATA.csv output.xlsx
+
+For detailed instructions, read GETTING_STARTED.md
+
+================================================================================
